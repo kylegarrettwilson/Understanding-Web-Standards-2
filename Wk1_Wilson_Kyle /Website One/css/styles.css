@@ -1,0 +1,219 @@
+body{
+    font: 100%/1.5 "Georgia", Arial, Helvetica;
+    max-width: 100%;
+    margin: 3.75% auto;
+    background-image: url("../images/wood.jpg");
+    background-repeat: repeat-y;
+}
+
+#wrapper{
+    width: 78.125%;
+    margin: 0 auto;
+    overflow: hidden;
+    background: #EDD27C;
+    opacity: .97;
+    border: 5px solid #734921;
+}
+
+
+/* this is the top of the page including navigation */
+
+header{
+    width: 66.66666667%; /*500/750*/
+    font-size: 1.75em;
+    font-weight: bold;
+    color: whitesmoke;
+    margin: 2% auto;
+    padding: 1.5%;
+    text-align: center;
+    background-color: #156073;
+    border: 3px solid black;
+    text-shadow: 2px 2px grey;
+    box-shadow: 10px 10px 5px black;
+}
+
+/* this targeting the li child of the nav parent */
+
+nav ul>li{
+    display: inline;
+    float: left;
+    padding-left: 3.4%;
+    margin-left: 10%;
+    margin-bottom: 4%;
+    font-size: 1.250em;
+}
+
+a:hover {
+    color: darkblue;
+}
+
+
+
+/* this is the end of the top page design */
+
+/* this floats the bullets next to the paragraphs */
+
+section{
+    float: left;
+    width: 62.8888889%;
+}
+
+aside{
+    float: right;
+    width: 36.7777778%;
+}
+
+
+
+/* this is establishing the h2 positions and size */
+
+h2, #contactus, #aboutus{
+    overflow: hidden;
+    clear: both;
+}
+
+h2{
+    font-size: 1.625em;
+    margin: 1% auto;
+    padding-left: 2.65%;
+    font-weight: bolder;
+    text-shadow: 1px 1px black;
+    letter-spacing: .1em;
+    color: #4AA8C0
+}
+
+.h2container > h2:first-of-type{
+    padding-top: 5%;
+}
+
+
+
+/* this is the design for the first paragraph and business table */
+
+#intro{
+    width: 100%;
+    margin: 1.3% auto;
+}
+
+
+p[class="intro"]{
+    width: 90%;
+    float: left;
+    overflow: hidden;
+    font-size: 1.25em;
+
+}
+
+table{
+    width: 100%;
+    background-color: white;
+    margin-right: 6%;
+    margin-top: 4%;
+    padding: 1%;
+    text-align: center;
+    font-size: 1.1em;
+    float: right;
+    clear: both;
+
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #ccc;
+}
+
+/* this is the end of that section*/
+
+/* this is establishing the size and position of the guitar models bullets */
+
+h3{
+    margin: 0 auto;
+    padding-left: 4%;
+    font-size: 1.250em;
+    font-weight: bolder;
+
+}
+
+h3 + ul{
+    font-size: 1.125em;
+    color: black;
+}
+
+
+/* this is making the pictures float and be flexible */
+
+#fenderpic, #martinpic, #taylorpic{
+    width: 63.666%;
+    float: left;
+    margin: 0 auto;
+    padding: 2% 2% 2% 4%;
+}
+
+
+#fenderpic img, #martinpic img, #taylorpic img{
+    max-width: 100%;
+}
+
+
+/* this is styling the paragraphs and the bottom sign up form */
+
+p{
+    margin: 1% 2% 5% 4%;
+    padding: 0 2% 4% 2%;
+    border-bottom: solid;
+    font-size: .938em;
+}
+
+
+form{
+    width: 60%;
+    margin: 2% auto;
+    font-size: 1.1em;
+    text-align: center;
+}
+
+
+/* this is the foot design to get it over from the left a little bit */
+
+footer{
+   margin: 2% auto;
+   padding-left: 11%;
+}
+
+
+/* this is the three media screen sizes and styling */
+
+@media screen and (min-width: 801px){
+    header{
+       width: 66.66666667%;
+       background-color: #156073;
+    }
+    table{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 800px){
+    header{
+        width: 50%;
+        background-color: #C0834A;
+        font-size: 1.3em;
+    }
+    table{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 480px){
+    header{
+        width: 30%;
+        background-color: #734921;
+        opacity: .8;
+        font-size: .8em;
+    }
+    table{
+        display: none;
+    }
+    body{
+        background-image: none;
+    }
+}
