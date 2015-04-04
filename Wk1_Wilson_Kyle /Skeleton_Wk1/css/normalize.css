@@ -17,19 +17,7 @@ html {
  */
 
 body {
-  font: 100%/1.5 "Georgia", Arial, Helvetica;
-  max-width: 100%;
-  margin: 3.75% auto;
-
-}
-
-.container{
-  width: 78.125%;
-  margin: 0 auto;
-  overflow: hidden;
-  background: #EDD27C;
-  opacity: .97;
-  border: 5px solid #734921;
+  margin: 0;
 }
 
 /* HTML5 display definitions
