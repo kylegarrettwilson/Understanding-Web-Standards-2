@@ -1,0 +1,24 @@
+/* this is a custom css stylesheet */
+
+body{
+    font: 100%/1.5 "Georgia", Arial, Helvetica;
+    max-width: 100%;
+    margin: 3.75% auto;
+    background-image: url("../img/wood_background.png");
+    background-repeat: repeat;
+}
+
+
+#container{
+    width: 80%;
+    margin: 10px auto;
+}
+
+#logo, #hardwood, #tile, #laminate, #carpet{
+    width: 100%;
+
+}
+
+#logo img, #hardwood img, #tile img, #laminate img, #carpet img{
+    max-width: 100%;
+}
