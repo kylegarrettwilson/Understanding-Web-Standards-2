@@ -8,13 +8,14 @@ body{
     background-repeat: repeat;
 }
 
+/* bootstrap pushing all content to across the entire page, this pushes it from the edges */
 
 #container{
     width: 80%;
     margin: 10px auto;
 }
 
-
+/* make the navigation font bigger, the bootstrap font is too small */
 #navigation{
     margin: 0 auto;
     font-size: 2em;
@@ -25,14 +26,14 @@ h3{
     font-size: 2.2em;
 }
 
-
+/* this is the form to fill out on the page */
 #looking{
     margin: 0 auto;
-    padding: 20px 0 0 35px;
-    font-size: 1.6em;
+    padding: 30px 0 0 35px;
+    font-size: 1.56em;
 }
 
-
+/* this is the contact info but technically is a table */
 #contact{
     margin: 0 auto;
     font-size: 1.3em;
@@ -63,7 +64,7 @@ p{
     font-size: 1.4em;
 }
 
-
+/* pushing the footer further down */
 footer{
     margin: 10px auto;
     padding-top: 15px;
