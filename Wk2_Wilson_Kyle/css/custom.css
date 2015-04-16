@@ -8,11 +8,15 @@ body{
     background-repeat: repeat;
 }
 
-
 #container{
     width: 80%;
     margin: 10px auto;
 }
+
+#navigation{
+    font-size: 2em;
+}
+
 
 #logo, #hardwood, #tile, #laminate, #carpet{
     width: 100%;
@@ -22,3 +26,8 @@ body{
 #logo img, #hardwood img, #tile img, #laminate img, #carpet img{
     max-width: 100%;
 }
+
+p{
+    font-size: 1.4em;
+}
+
