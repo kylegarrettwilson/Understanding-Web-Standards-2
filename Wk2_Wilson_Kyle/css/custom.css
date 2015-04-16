@@ -8,32 +8,65 @@ body{
     background-repeat: repeat;
 }
 
+
 #container{
     width: 80%;
     margin: 10px auto;
 }
 
+
 #navigation{
+    margin: 0 auto;
     font-size: 2em;
 }
 
-#looking{
-    padding: 50px 0 0 35px;
-    font-size: 1.3em;
+
+h3{
+    font-size: 2.2em;
 }
 
+
+#looking{
+    margin: 0 auto;
+    padding: 20px 0 0 35px;
+    font-size: 1.6em;
+}
+
+
+#contact{
+    margin: 0 auto;
+    font-size: 1.7em;
+}
+
+
+#contact tr>th{
+    padding: 5px;
+}
+
+
+#contact tr>td{
+    padding: 5px;
+}
 
 
 #logo, #hardwood, #tile, #laminate, #carpet{
     width: 100%;
-
 }
+
 
 #logo img, #hardwood img, #tile img, #laminate img, #carpet img{
     max-width: 100%;
 }
 
+
 p{
     font-size: 1.4em;
+}
+
+
+footer{
+    margin: 10px auto;
+    padding-top: 15px;
+    font-size: 1.1em;
 }
 
