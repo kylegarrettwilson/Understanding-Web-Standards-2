@@ -130,42 +130,81 @@
 
 
     <!-- row 4 -->
+    <div id="bottomhalf">
+        <div id="galley">
+        <div class="row">
+            <article class="col-lg-6 col-md-7">
+                <h3>Carpet Photo Gallery</h3>
+                    <div class="row">
+                        <div class="col-xs-6">
+                            <div class="thumbnail">
+                                <img src="img/carpet_gallery1.jpg" alt="" class="img-responsive">
+                                <p class="caption">Blue Nylon Carpet</p>
+                            </div>
+                        </div>
+                        <div class="col-xs-6">
+                            <div class="thumbnail">
+                                <img src="img/carpet_gallery2.jpg" alt="" class="img-responsive">
+                                <p class="caption">Brown Wool Carpet</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-6">
+                            <div class="thumbnail">
+                                <img src="img/carpet_gallery3.jpg" alt="" class="img-responsive">
+                                <p class="caption">Green Nylon Carpet</p>
+                            </div>
+                        </div>
+                        <div class="col-xs-6">
+                            <div class="thumbnail">
+                                <img src="img/carpet_gallery4.jpg" alt="" class="img-responsive">
+                                <p class="caption">Red Blend Carpet</p>
+                            </div>
+                        </div>
+                    </div>
+            </article>
+        </div>
+        </div>
 
-    <div class="row">
-        <article class="col-lg-6 col-md-7">
-            <h3>Carpet Photo Gallery</h3>
-                <div class="row">
-                    <div class="col-xs-6">
-                        <div class="thumbnail">
-                            <img src="img/carpet_gallery1.jpg" alt="" class="img-responsive">
-                            <p class="caption">Blue Nylon Carpet</p>
-                        </div>
-                    </div>
-                    <div class="col-xs-6">
-                        <div class="thumbnail">
-                            <img src="img/carpet_gallery2.jpg" alt="" class="img-responsive">
-                            <p class="caption">Brown Wool Carpet</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-xs-6">
-                        <div class="thumbnail">
-                            <img src="img/carpet_gallery3.jpg" alt="" class="img-responsive">
-                            <p class="caption">Green Nylon Carpet</p>
-                        </div>
-                    </div>
-                    <div class="col-xs-6">
-                        <div class="thumbnail">
-                            <img src="img/carpet_gallery4.jpg" alt="" class="img-responsive">
-                            <p class="caption">Red Blend Carpet</p>
-                        </div>
-                    </div>
-                </div>
-        </article>
+        <!-- form -->
+
+        <div id="looking">
+            <form action="action_page.php">
+                <fieldset>
+                    <legend>What are you looking for?</legend>
+                    Name:
+                    <input type="text" name="firstname" value="John Doe" maxlength="20" autofocus>
+                    <br>
+                    <br>
+                    Email:
+                    <input type="email" name="email" value="JohnDoe@gmail.com"/>
+                    <br>
+                    <br>
+                    <fieldset>
+                        <legend>What type of flooring are you looking for?</legend>
+                        <input type= "radio" name="genre" value="Hardwood" checked="checked"/>Hardwood
+                        <input type= "radio" name="genre" value="Tile"/>Tile
+                        <input type= "radio" name="genre" value="Laminate"/>Laminate
+                        <input type= "radio" name="genre" value="Carpet"/>Carpet
+                    </fieldset>
+                    <br>
+                    <fieldset>
+                        <legend>What size of area do you want to cover?</legend>
+                        <select name="size">
+                            <option value="small"
+                                    selected="selected">1 room</option>
+                            <option value="medium">3-5 rooms</option>
+                            <option value="large">Kitchen</option>
+                            <option value="house">Entire House</option>
+                        </select>
+                    </fieldset>
+                    <br>
+                    <input type="submit" value="Submit">
+                </fieldset>
+            </form>   <!-- end of contact us form -->
+        </div>
     </div>
-
-
     <!-- row 5 -->
 
     <footer class="row">

@@ -17,6 +17,18 @@ body{
     font-size: 2em;
 }
 
+#looking{
+    max-width: 30%;
+    float: right;
+    clear: both;
+}
+
+#gallery{
+    float: left;
+    overflow: hidden;
+}
+
+
 
 #logo, #hardwood, #tile, #laminate, #carpet{
     width: 100%;
