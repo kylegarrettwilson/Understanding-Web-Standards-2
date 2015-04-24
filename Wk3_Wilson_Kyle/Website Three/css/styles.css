@@ -55,12 +55,10 @@ header{
 
 
 
-
-
 h2{
     font-size: 1.625em;
     margin: 1% auto;
-    padding-left: 2.65%;
+    padding-left: 3.65%;
     font-weight: bolder;
     text-shadow: 1px 1px black;
     letter-spacing: .1em;
@@ -151,6 +149,33 @@ form{
 }
 
 
+#formWrap{
+    position: relative;
+    width: 100%;
+}
+
+#range{
+    position: absolute;
+    top: 10px;
+    left: 40px;
+}
+
+#calender{
+    position: absolute;
+    top: 0;
+    left: 290px;
+    z-index: 1;
+}
+
+#submit{
+
+}
+
+#joinNow{
+  position: fixed;
+  top: 15px;
+  left: 15px;
+}
 
 
 
@@ -213,5 +238,8 @@ footer{
     }
     body{
         background-image: none;
+    }
+    #joinNow img{
+        display: none;
     }
 }

@@ -135,15 +135,43 @@
                             </select>
                         </fieldset>
                         <br>
-                        <input type="submit" value="Submit">
+                        <fieldset>
+                            <input type="checkbox" name="personalinfo" value="Insurance" checked="checkbox">
+                                I have life insurance<br>
+                            <input type="checkbox" name="personalinfo" value="Health">
+                                I have no major medical issues<br>
+                            <input type="checkbox" name="personalinfo" value="Waiver">
+                                I have signed my waiver<br>
+                            <input type="checkbox" name="personalinfo" value="Car">
+                                I have my own form of transportation<br>
+                        </fieldset>
+                        <br>
+                        <div id="formWrap">
+                            <div id="range">
+                                Points:
+                                <input type="range" name="points" min="0" max="10">
+                            </div>
+                            <div id="calender">
+                                Birthday (month and year):
+                                <input type="month" name="bdaymonth">
+                            </div>
+                        </div>
+                        <br>
+                        <br>
+                        <div id="submit">
+                            <input type="submit" value="Submit">
+                        </div>
                     </fieldset>
                 </form>   <!-- end of contact us form -->
             </div>
-            </div>
-            </div>
 
+            <aside>
+                <div id="joinNow"><img src="images/JoinNow.png" alt="Join Now"></div>
+            </aside>
 
-    </div><!--- end of wrapper -->
+        </div>
+    </div> <!-- end of wrapper -->
+
 
     <footer>  <!-- footer section -->
         <section>Action Adventure Guide LLC</section>
