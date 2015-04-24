@@ -20,8 +20,8 @@ body{
 /* this is the top of the page including navigation */
 
 header{
-  margin: 10px auto;
-  padding: 10px 0 10px 100px;
+  margin: 3% auto;
+  padding: 1% 0 3% 15%;
 }
 
 
@@ -107,8 +107,6 @@ h3 + ul{
 
 
 
-
-
 /* this is making the pictures float and be flexible */
 
 #logo, #rockclimbing, #whitewater, #skydiving{
@@ -127,25 +125,27 @@ h3 + ul{
 
 
 
-
-
-
-
-
-/* this is styling the paragraphs and the bottom sign up form */
+/* this is styling the paragraphs*/
 
 p{
     margin: 1% 2% 5% 4%;
     padding: 0 2% 4% 2%;
-    font-size: .938em;
+    font-size: 1em;
 }
+
+
+
+
+/* form styling */
 
 
 form{
     width: 60%;
     margin: 2% auto;
-    font-size: 1.1em;
+    font-size: 1em;
     text-align: center;
+    background: linear-gradient(#80B5C4,grey)
+
 }
 
 
@@ -154,27 +154,57 @@ form{
     width: 100%;
 }
 
+fieldset{
+    border: 4px solid black;
+}
+
 #range{
     position: absolute;
-    top: 10px;
-    left: 40px;
+    top: 1.4%;
+    left: 5%;
 }
 
 #calender{
     position: absolute;
-    top: 0;
-    left: 290px;
+    font-size: .9em;
+    top: 1%;
+    left: 60%;
     z-index: 1;
 }
 
-#submit{
-
+.button{
+    background-color: darkgrey;
+    transition-property: background;
+    transition-duration: 1s;
+    width: 30%;
 }
+
+.button:hover {
+    background-color: black;
+    color: #ffffff;
+}
+
+.button:active{
+    transform:scale(1.1);
+}
+
+
+
+
+
+/* join now button*/
 
 #joinNow{
   position: fixed;
   top: 15px;
   left: 15px;
+  background-color: transparent;
+  transition: background-color .5s ease-in;
+}
+
+#joinNow:hover{
+    background-color: white;
+    transform:skew(10deg,10deg) rotateZ(30deg);;
 }
 
 
@@ -194,23 +224,19 @@ footer{
 
 
 
-
-
-
-
-
-
-
-
 /* this is the three media screen sizes and styling */
 
 @media screen and (min-width: 801px){
     header{
        width: 66.66666667%;
     }
-    table{
-        width: 100%;
+    h2{
+        font-size: 1.5em;
     }
+    p{
+        font-size: 1em;
+    }
+
 }
 
 @media screen and (min-width: 481px) and (max-width: 800px){
@@ -218,8 +244,21 @@ footer{
         width: 50%;
         font-size: 1.3em;
     }
-    table{
-        width: 80%;
+    h2{
+        font-size: 1em;
+    }
+    p{
+        font-size: .6em;
+    }
+    #calender{
+        padding-top: 70px;
+        left: 10%;
+    }
+    #submit{
+        padding-top: 90px;
+    }
+    form{
+        width: 100%;
     }
 }
 
@@ -241,5 +280,18 @@ footer{
     }
     #joinNow img{
         display: none;
+    }
+    #calender{
+        padding-top: 70px;
+        left: 10%;
+    }
+    #submit{
+        padding-top: 90px;
+    }
+    form{
+        width: 100%;
+    }
+    h2{
+        font-size: .9em;
     }
 }

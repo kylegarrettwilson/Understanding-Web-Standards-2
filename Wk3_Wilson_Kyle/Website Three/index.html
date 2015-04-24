@@ -107,7 +107,7 @@
             <div id="contactus">
                 <form action="action_page.php">
                     <fieldset>
-                        <legend>Contact Us:</legend>
+                        <legend>Sign Up!</legend>
                         Name:
                         <input type="text" name="firstname" value="John Doe" maxlength="20" autofocus>
                         <br>
@@ -117,15 +117,15 @@
                         <br>
                         <br>
                         <fieldset>
-                            <legend>Genre You Play:</legend>
-                            <input type= "radio" name="genre" value="Rock" checked="checked"/>Rock
-                            <input type= "radio" name="genre" value="Jazz"/>Blues
-                            <input type= "radio" name="genre" value="Country"/>Country
+                            <legend>Activity:</legend>
+                            <input type= "radio" name="genre" value="Rock" checked="checked"/>Rock Climbing
+                            <input type= "radio" name="genre" value="Jazz"/>Rafting
+                            <input type= "radio" name="genre" value="Country"/>Skydiving
                             <input type= "radio" name="genre" value="Hip Hop"/>Other
                         </fieldset>
                         <br>
                         <fieldset>
-                            <legend>How many years have you been playing?</legend>
+                            <legend>How many many people in your party?</legend>
                             <select name="years">
                                 <option value="beginner"
                                         selected="selected">1-3</option>
@@ -136,30 +136,32 @@
                         </fieldset>
                         <br>
                         <fieldset>
-                            <input type="checkbox" name="personalinfo" value="Insurance" checked="checkbox">
-                                I have life insurance<br>
-                            <input type="checkbox" name="personalinfo" value="Health">
-                                I have no major medical issues<br>
-                            <input type="checkbox" name="personalinfo" value="Waiver">
-                                I have signed my waiver<br>
-                            <input type="checkbox" name="personalinfo" value="Car">
-                                I have my own form of transportation<br>
+                            <div class="check">
+                                <input type="checkbox" name="personalinfo" value="Insurance" checked="checkbox">
+                                    I have life insurance<br>
+                                <input type="checkbox" name="personalinfo" value="Health">
+                                    I have no major medical issues<br>
+                                <input type="checkbox" name="personalinfo" value="Waiver">
+                                    I have signed my waiver<br>
+                                <input type="checkbox" name="personalinfo" value="Car">
+                                    I have my own form of transportation<br>
+                            </div>
                         </fieldset>
                         <br>
                         <div id="formWrap">
                             <div id="range">
-                                Points:
+                                Experience level:
                                 <input type="range" name="points" min="0" max="10">
                             </div>
                             <div id="calender">
-                                Birthday (month and year):
+                                Desired Date (month and year):
                                 <input type="month" name="bdaymonth">
                             </div>
                         </div>
                         <br>
                         <br>
                         <div id="submit">
-                            <input type="submit" value="Submit">
+                            <input type="submit" value="Submit" class="button">
                         </div>
                     </fieldset>
                 </form>   <!-- end of contact us form -->
