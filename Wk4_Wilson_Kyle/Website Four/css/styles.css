@@ -15,10 +15,12 @@ body{
 
 
 #topContent{
-    background-image: url("../images/logodrumming3.jpg");
-    overflow: auto;
+    background: url("../images/logodrumming.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
-    width: 100%;
+    overflow: auto;
 }
 
 
@@ -38,13 +40,26 @@ header>#logo{
 nav ul>li{
     display: inline;
     float: left;
-    padding-left: 2.4%;
-    margin-left: 10%;
-    margin-bottom: 4%;
-    font-size: 1.250em;
-    color: white;
+    margin-left: 1%;
+    margin-bottom: 1%;
+    font-size: 1.3em;
 }
 
+#bionav:hover{
+    transform:skew(5deg,5deg);
+}
+
+#videoseriesnav:hover{
+    transform:skew(5deg,5deg);
+}
+
+#latestvideonav:hover{
+    transform:skew(5deg,5deg);
+}
+
+#newsletternav:hover{
+    transform:skew(5deg,5deg);
+}
 
 
 #intro{
@@ -70,6 +85,10 @@ p[class="intro"]{
     padding: 0 15% 7.3% 5%;
     color: white;
 }
+
+
+
+
 
 
 
@@ -211,7 +230,7 @@ fieldset{
 
 #joinNow:hover{
     background-color: white;
-    transform:skew(10deg,10deg) rotateZ(30deg);;
+    transform:skew(10deg,10deg) rotateZ(30deg);
 }
 
 
