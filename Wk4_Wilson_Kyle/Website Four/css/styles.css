@@ -2,8 +2,7 @@ body{
     font: 100%/1.5 "Georgia", Arial, Helvetica;
     max-width: 100%;
     margin: 3.75% auto;
-    background-image: url("../images/swirl_pattern.png");
-    background-repeat: repeat;
+    background-color: #7190b3;
 
 }
 
@@ -11,26 +10,78 @@ body{
     width: 80%;
     margin: 0 auto;
     overflow: hidden;
-    background: #80B5C4;
     opacity: .97;
-    border: 5px solid #734921;
 }
 
 
-/* this is the top of the page including navigation */
+#topContent{
+    background-image: url("../images/logodrumming3.jpg");
+    overflow: auto;
+    background-size: cover;
+    width: 100%;
+}
+
 
 header {
+    width: 80%;
     margin: 3% auto;
-    padding: 1% 0 3% 15%;
-    overflow: auto;
+    padding-right: 16%;
 }
 
-h1{
-    font-size: 6em;
-    margin: 3% auto;
+
+header>#logo{
+    width: 100%;
+    margin: 1% auto;
+}
+
+
+nav ul>li{
+    display: inline;
+    float: left;
+    padding-left: 2.4%;
+    margin-left: 10%;
+    margin-bottom: 4%;
+    font-size: 1.250em;
+    color: white;
+}
+
+
+
+#intro{
+    width: 100%;
+    margin: 1% auto;
     clear: both;
-    background-color: #444444;
-    color: #0FA0CE;
+}
+
+
+p[class="intro"]{
+    width: 45%;
+    font-size: 1em;
+    float: left;
+    overflow: auto;
+    color: #ffffff;
+}
+
+
+#intro>table{
+    width: 45%;
+    float: right;
+    margin: 0 auto;
+    padding: 0 15% 7.3% 5%;
+    color: white;
+}
+
+
+
+
+h2{
+    font-size: 1.625em;
+    margin: 1% auto;
+    padding-left: 3.65%;
+    font-weight: bolder;
+    text-shadow: 1px 1px black;
+    letter-spacing: .1em;
+    color: black;
 }
 
 
@@ -39,6 +90,7 @@ h1{
 #mainContent{
     position: relative;
     width: 100%;
+    clear: both;
 }
 
 
@@ -61,60 +113,6 @@ h1{
 #aboutus{
     clear: both;
 }
-
-
-
-
-h2{
-    font-size: 1.625em;
-    margin: 1% auto;
-    padding-left: 3.65%;
-    font-weight: bolder;
-    text-shadow: 1px 1px black;
-    letter-spacing: .1em;
-    color: #78128A
-}
-
-
-
-
-
-
-
-/* this is the design for the first paragraph and business table */
-
-
-#intro{
-    width: 100%;
-    margin: 1% auto;
-    clear: both;
-}
-
-
-p[class="intro"]{
-    width: 90%;
-    font-size: 1.25em;
-
-}
-
-
-
-h3{
-    margin: 0 auto;
-    padding-left: 4%;
-    font-size: 1.250em;
-    font-weight: bolder;
-
-}
-
-h3 + ul{
-    font-size: 1.125em;
-    color: black;
-}
-
-
-
-
 
 
 /* this is making the pictures float and be flexible */
@@ -235,6 +233,8 @@ footer{
 
 /* this is the three media screen sizes and styling */
 
+/*
+
 @media screen and (min-width: 801px){
     header{
        width: 66.66666667%;
@@ -304,3 +304,5 @@ footer{
         font-size: .9em;
     }
 }
+
+*/
