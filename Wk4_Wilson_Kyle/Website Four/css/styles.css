@@ -24,7 +24,7 @@ body{
 }
 
 
-header {
+header{
     width: 80%;
     margin: 3% auto;
     padding-right: 16%;
@@ -136,7 +136,7 @@ h2{
 
 /* this is making the pictures float and be flexible */
 
-#logo, #rockclimbing, #whitewater, #skydiving{
+#logo, #original, #cover, #vlog{
     width: 63.666%;
     float: left;
     margin: 0 auto;
@@ -144,7 +144,7 @@ h2{
 }
 
 
-#logo img, #rockclimbing img, #whitewater img, #skydiving img{
+#logo img, #original img, #cover img, #vlog img{
     max-width: 100%;
 }
 
