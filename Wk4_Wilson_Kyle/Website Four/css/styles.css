@@ -14,6 +14,8 @@ body{
 }
 
 
+/* this is making the top content responsive to the wrapper size */
+
 #topContent{
     background: url("../images/logodrumming.png") no-repeat .5% center;
     -webkit-background-size: cover;
@@ -23,6 +25,7 @@ body{
     overflow: auto;
     clear: both;
 }
+
 
 
 header{
@@ -45,7 +48,7 @@ nav ul>li{
 
 }
 
-
+/* this is the nav interactivity */
 
 #bionav:hover{
     transform:skew(5deg,5deg);
@@ -63,6 +66,10 @@ nav ul>li{
     transform:skew(5deg,5deg);
 }
 
+
+
+
+/* this is making the intro paragraph and table float along side */
 
 #intro{
     width: 100%;
@@ -91,7 +98,7 @@ p[class="intro"]{
 
 
 
-
+/* this is making the three column layout */
 
 #mainContent{
     position: relative;
@@ -123,7 +130,7 @@ p[class="intro"]{
 
 
 
-
+/* making the media responsive */
 
 
 #logo, #original, #cover, #vlog, div.img{
@@ -151,7 +158,7 @@ p[class="intro"]{
 
 
 
-
+/* making the youtube vid responsive */
 
 #youtube{
     position: relative;
@@ -174,7 +181,7 @@ p[class="intro"]{
 
 
 
-
+/* making the photo gallery responsive */
 
 
 p{
@@ -205,10 +212,6 @@ div.img img{
 }
 
 
-#contactMe{
-    float: left;
-    clear: both;
-}
 
 
 
@@ -218,26 +221,29 @@ div.img img{
 
 /* form styling */
 
+#contactMe{
+    clear: both;
+    width: 100%;
+}
+
 
 form{
-    width: 100%;
-    margin: 2% auto;
-    font-size: 1em;
+    width: 65%;
+    margin: 0 auto;
+    padding: 1%;
+    font-size: 1.1em;
     text-align: left;
     background: linear-gradient(#7190b3,black);
     color: white;
 }
 
 
-#formWrap{
-    position: relative;
-    width: 100%;
-}
-
 fieldset{
-    border: 3px solid black;
+    border: 2px solid black;
 }
 
+
+/* this is making the button have a transition */
 
 .button{
     background-color: lightskyblue;
@@ -262,21 +268,15 @@ fieldset{
 
 /* join now button*/
 
-#joinNow{
+#subNow{
   position: fixed;
   top: 15px;
   left: 15px;
-  background-color: transparent;
-  transition: background-color .5s ease-in;
 }
 
-#joinNow:hover{
-    background-color: white;
-    transform:skew(10deg,10deg) rotateZ(30deg);
+#subNow:hover{
+    transform:skew(5deg,5deg);
 }
-
-
-
 
 
 
@@ -294,17 +294,20 @@ footer{
 
 /* this is the three media screen sizes and styling */
 
-/*
+
 
 @media screen and (min-width: 801px){
     header{
-       width: 66.66666667%;
+       width: 66.6666667%;
+    }
+    nav ul>li{
+        margin-right: 4%;
     }
     h2{
         font-size: 1.5em;
     }
     p{
-        font-size: 1em;
+        font-size: 1.2em;
     }
 
 }
@@ -318,9 +321,9 @@ footer{
         font-size: 1em;
     }
     p{
-        font-size: .6em;
+        font-size: .8em;
     }
-    #calender{
+    #{
         padding-top: 70px;
         left: 10%;
     }
@@ -329,6 +332,9 @@ footer{
     }
     form{
         width: 100%;
+    }
+    #subNow img{
+        display: none;
     }
 }
 
@@ -336,34 +342,33 @@ footer{
     header{
         display: none;
     }
-    #rockclimbing img{
+    table{
         display: none;
     }
-    #whitewater img{
+    #original img{
         display: none;
     }
-    #skydiving img{
+    #cover img{
         display: none;
     }
-    body{
-        background-image: none;
-    }
-    #joinNow img{
+    #vlog img{
         display: none;
     }
-    #calender{
-        padding-top: 70px;
-        left: 10%;
-    }
-    #submit{
-        padding-top: 90px;
+    #subNow img{
+        display: none;
     }
     form{
-        width: 100%;
+        margin-right: 70%;
+        width: 70%;
+        background: none;
+        font-size: .6em;
+        border: hidden;
+    }
+    #radio{
+        display: none;
     }
     h2{
         font-size: .9em;
     }
 }
 
-*/
