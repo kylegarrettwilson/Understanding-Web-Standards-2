@@ -14,13 +14,13 @@
     <div id="wrapper">  <!-- start of wrapper -->
 
 
-       <div id="topContent">
+       <div id="topContent">  <!-- this is for designing the top content -->
             <header>
                 <div id="logo"><img src="images/sblogo.png" alt="Smile Black"></div>
             </header>
 
 
-            <nav>
+            <nav>   <!-- navigation using custom made symbols -->
                 <ul>
                     <li><a href="#intro"><div id="bionav"><img src="images/bionav.png" alt="Navigation"></div></a></li>
                     <li><a href="#mainContent"><div id="videoseriesnav"><img src="images/videoseriesnav.png" alt="Navigation"></div></a></li>
@@ -68,62 +68,64 @@
 
 
 
-    <div id="mainContent">
+            <div id="mainContent">  <!-- this is the three column layout which will be floated -->
 
 
-         <div id="first">
+                 <div id="first">
 
-            <section>
-                <article>
-                    <div id="original"><img src="images/originalpiece.png" alt="Original"></div>
-                    <p>The <strong>Original Series</strong> is where all of my musical creations will live. I encourage
-                        any artist to use this content for their medium in whatever way possible. If you want to collaborate
-                        with an original idea, please contact me and we will set something up. You can contact me by the form below
-                        or messaging me on YouTube or Facebook.
-                    </p>
-                </article>
-            </section>
-        </div>
-
-
-         <div id="second">
-
-            <section>
-                <article>
-                    <div id="cover"><img src="images/coverpiece.png" alt="Cover"></div>
-                    <p>The <strong>Cover Series</strong> is the roots of the SMILE BLACK project. I began recording drum covers
-                    four years ago and have loved every minute. It forces me to continue progressing and developing my skill as
-                    a well rounded musician. If you have any suggestions for future covers please message me below. Also, hit
-                        up the YouTube comments and my Facebook page.
-                </article>
-            </section>
-        </div>
+                    <section>
+                        <article>
+                            <div id="original"><img src="images/originalpiece.png" alt="Original"></div>
+                            <p>The <strong>Original Series</strong> is where all of my musical creations will live. I encourage
+                                any artist to use this content for their medium in whatever way possible. If you want to collaborate
+                                with an original idea, please contact me and we will set something up. You can contact me by the form below
+                                or messaging me on YouTube or Facebook.
+                            </p>
+                        </article>
+                    </section>
+                </div>
 
 
+                 <div id="second">
 
-         <div id="third">
+                    <section>
+                        <article>
+                            <div id="cover"><img src="images/coverpiece.png" alt="Cover"></div>
+                            <p>The <strong>Cover Series</strong> is the roots of the SMILE BLACK project. I began recording drum covers
+                            four years ago and have loved every minute. It forces me to continue progressing and developing my skill as
+                            a well rounded musician. If you have any suggestions for future covers please message me below. Also, hit
+                                up the YouTube comments and my Facebook page.
+                        </article>
+                    </section>
+                </div>
 
-             <section>
-                <article>
-                    <div id="vlog"><img src="images/vlogpiece.png" alt="Vlog"></div>
-                    <p>The <strong>Vlogging Series</strong> is a community project that hopes to discuss the current trends
-                        throughout music and the industry surrounding it. The current state of the music industry is questionable and
-                        I intend for the SMILE BLACK community to be a beacon of honesty in a very commercialized business. Please feel
-                        free to make response videos and message them to me (I will feature you). Also, hit up the YouTube comments and my Facebook page.
-                    </p>
-                </article>
-            </section>
-        </div>
-     </div>
 
+
+                 <div id="third">
+
+                     <section>
+                        <article>
+                            <div id="vlog"><img src="images/vlogpiece.png" alt="Vlog"></div>
+                            <p>The <strong>Vlogging Series</strong> is a community project that hopes to discuss the current trends
+                                throughout music and the industry surrounding it. The current state of the music industry is questionable and
+                                I intend for the SMILE BLACK community to be a beacon of honesty in a very commercialized business. Please feel
+                                free to make response videos and message them to me (I will feature you). Also, hit up the YouTube comments and my Facebook page.
+                            </p>
+                        </article>
+                    </section>
+                </div>
+             </div>
+
+
+            <!-- youtube vid html using iframe-->
 
             <div id="youtube">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/LbUwJlkDZCM" frameborder="0" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/LbUwJlkDZCM" allowfullscreen></iframe>
             </div>
 
 
 
-
+                <!-- photo gallery -->
                 <div id="photoGallery">
 
                     <h2>Channel Sponsors</h2>
@@ -186,7 +188,7 @@
                         <br>
                         <fieldset>
                             <div id="radio">
-                            <legend>Video Type:</legend>
+                            Video Type:
                             <input type= "radio" name="genre" value="Cover" checked="checked"/>Cover Idea
                             <input type= "radio" name="genre" value="Collaborative Cover"/>Collaborative Cover
                             <input type= "radio" name="genre" value="Collaborative Original"/>Collaborative Original
@@ -195,13 +197,9 @@
                         </fieldset>
                         <br>
                         <fieldset>
-                            <div class="check">
-                                <form method="post" action="">
                                     <textarea name="comments" cols="45" rows="10">If you have any video suggestions or wish to collaborate please describe your vision here.....
                                     </textarea><br>
                                     <input type="submit" value="Submit" class="button" />
-                                </form>
-                            </div>
                         </fieldset>
                     </fieldset>
                 </form>
