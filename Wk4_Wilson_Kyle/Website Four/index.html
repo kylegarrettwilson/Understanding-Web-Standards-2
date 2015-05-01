@@ -120,76 +120,98 @@
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/LbUwJlkDZCM" frameborder="0" allowfullscreen></iframe>
             </div>
 
-                <!-- this is the contact us form -->
-            <div id="contactus">
+
+
+
+                <div id="photoGallery">
+
+                    <h2>My Sponsors</h2>
+
+                    <div class="img">
+                        <a target="_blank" href="http://truthdrums.com">
+                            <img src="images/truth.jpg" alt="Truth Drums" width="200" height="200">
+                        </a>
+                        <div class="desc">Truth Drums</div>
+                    </div>
+                    <div class="img">
+                        <a target="_blank" href="http://www.vicfirth.com/">
+                            <img src="images/vicfirth.jpg" alt="Vic Firth" width="200" height="200">
+                        </a>
+                        <div class="desc">Vic Firth</div>
+                    </div>
+                    <div class="img">
+                        <a target="_blank" href="http://www.remo.com/">
+                            <img src="images/remo.jpg" alt="Remo" width="200" height="200">
+                        </a>
+                        <div class="desc">Remo</div>
+                    </div>
+                    <div class="img">
+                        <a target="_blank" href="http://www.dwdrums.com/">
+                            <img src="images/dw.jpg" alt="DW drums" width="200" height="200">
+                        </a>
+                        <div class="desc">DW Drums</div>
+                    </div>
+                    <div class="img">
+                        <a target="_blank" href="http://www.guitarcenter.com/">
+                            <img src="images/guitarcenter.jpg" alt="Guitar Center" width="200" height="200">
+                        </a>
+                        <div class="desc">Guitar Center</div>
+                    </div>
+                    <div class="img">
+                        <a target="_blank" href="http://www.shure.com/americas">
+                            <img src="images/shure.jpg" alt="Shure" width="200" height="200">
+                        </a>
+                        <div class="desc">Shure Mics</div>
+                    </div>
+                </div>
+
+
+
+
+                <!-- this is the contact me form-->
+
+            <div id="contactMe">
+                <div id="formWrap">
                 <form action="action_page.php">
                     <fieldset>
-                        <legend>Sign Up!</legend>
+                        <legend>Want to collaborate or have a cover idea? Contact me below!</legend>
                         Name:
                         <input type="text" name="firstname" value="John Doe" maxlength="20" autofocus>
                         <br>
                         <br>
-                        Email:
+                        Email, YouTube channel or Facebook:
                         <input type="email" name="email" value="JohnDoe@gmail.com"/>
                         <br>
                         <br>
                         <fieldset>
-                            <legend>Activity:</legend>
-                            <input type= "radio" name="genre" value="Rock" checked="checked"/>Rock Climbing
-                            <input type= "radio" name="genre" value="Jazz"/>Rafting
-                            <input type= "radio" name="genre" value="Country"/>Skydiving
-                            <input type= "radio" name="genre" value="Hip Hop"/>Other
-                        </fieldset>
-                        <br>
-                        <fieldset>
-                            <legend>How many many people in your party?</legend>
-                            <select name="years">
-                                <option value="beginner"
-                                        selected="selected">1-3</option>
-                                <option value="intermediate">3-5</option>
-                                <option value="advanced">5-10</option>
-                                <option value="expert">10-20</option>
-                            </select>
+                            <legend>Video Type:</legend>
+                            <input type= "radio" name="genre" value="Cover" checked="checked"/>Cover Idea
+                            <input type= "radio" name="genre" value="Collaborative Cover"/>Collaborative Cover
+                            <input type= "radio" name="genre" value="Collaborative Original"/>Collaborative Original
+                            <input type= "radio" name="genre" value="Other"/>Other
                         </fieldset>
                         <br>
                         <fieldset>
                             <div class="check">
-                                <input type="checkbox" name="personalinfo" value="Insurance">
-                                    I have life insurance<br>
-                                <input type="checkbox" name="personalinfo" value="Health">
-                                    I have no major medical issues<br>
-                                <input type="checkbox" name="personalinfo" value="Waiver">
-                                    I have signed my waiver<br>
-                                <input type="checkbox" name="personalinfo" value="Car">
-                                    I have my own form of transportation<br>
+                                <form method="post" action="">
+                                    <textarea name="comments" cols="45" rows="10">If you have any video suggestions or wish to collaborate please describe your vision here.....
+                                    </textarea><br>
+                                    <input type="submit" value="Submit" class="button" />
+                                </form>
                             </div>
                         </fieldset>
-                        <br>
-                        <div id="formWrap">
-                            <div id="range">
-                                Experience level:
-                                <input type="range" name="points" min="0" max="10">
-                            </div>
-                            <div id="calender">
-                                Desired Date (month and year):
-                                <input type="month" name="bdaymonth">
-                            </div>
-                        </div>
-                        <br>
-                        <br>
-                        <div id="submit">
-                            <input type="submit" value="Submit" class="button">
-                        </div>
                     </fieldset>
-                </form>   <!-- end of contact us form -->
+                </form>
+                </div>
             </div>
+
 
 
          <!--   <aside>
                 <div id="joinNow"><img src="images/JoinNow.png" alt="Join Now"></div>
             </aside>  -->
 
-        </div>
+
     </div> <!-- end of wrapper -->
 
 
